@@ -40,6 +40,6 @@ android {
 }
 
 dependencies {
-    implementation(group: 'com.transistorsoft', name:'tsbackgroundfetch', version: '+')
+    implementation 'com.github.ZhouBey:transistor-background-fetch:1.0.0'
     implementation "androidx.appcompat:appcompat:${safeExtGet('appCompatVersion', "1.1.0")}"
 }
